@@ -1,0 +1,101 @@
+* {
+  padding: auto;
+  margin: auto;
+  margin-top: 4%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+#toptext {
+  position: absolute;
+  margin-top: auto;
+}
+
+.content {
+  height: auto;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(233, 233, 233);
+  padding: 50px;
+}
+
+#boxL {
+  height: 300px;
+  width: 300px;
+  font-size: 220px;
+  text-align: center;
+  background-color: rgb(27, 194, 226);
+  margin-right: 20px;
+  box-shadow: 0px 3px 10px black;
+  display: flex;
+  flex-direction: column;
+}
+
+#cardL {
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+#icon {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 230px;
+}
+
+#boxC {
+  height: 300px;
+  width: 300px;
+  font-size: 220px;
+  color: white;
+  text-align: center;
+  background-color: rgb(249, 200, 51);
+  margin-right: 20px;
+  box-shadow: 0px 2px 10px black;
+  display: flex;
+  flex-direction: column;
+}
+
+#cardC {
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+#boxR {
+  height: 300px;
+  width: 300px;
+  font-size: 220px;
+  color: white;
+  text-align: center;
+  background-color: rgb(0, 161, 79);
+  margin-right: 20px;
+  box-shadow: 0px 2px 10px black;
+  display: flex;
+  flex-direction: column;
+}
+
+#cardR {
+  background-color: white;
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+}
